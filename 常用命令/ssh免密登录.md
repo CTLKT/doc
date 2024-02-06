@@ -3,7 +3,7 @@
 1、生成密钥，输入三次空格
 
 **ssh-keygen -t rsa**
-![Alt text](image-1.png)
+![Alt text](img/image-1.png)
 
 2、发送公钥
 
@@ -11,4 +11,4 @@ ssh-copy-id kc002
 
 免密配置就好了
 
-![Alt text](image.png)
+![Alt text](img/image.png)
