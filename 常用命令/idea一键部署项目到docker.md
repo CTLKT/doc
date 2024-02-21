@@ -28,14 +28,14 @@ https://github.com/docker/compose/releases/tag/v2.24.0
 
     mv docker-compose-linux-x86_64 docker-compose
 
-![img.png](img.png)
+![img.png](img/img111.png)
 
 
  安装成功
 
 docker-compose --version
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 
 ### 安装harbor
 
@@ -120,7 +120,7 @@ vi /etc/docker/daemon.json
 ```
 {
   "registry-mirrors": ["http://192.168.11.200"],
-  "insecure-registries":["193.168.11.200"]
+  "insecure-registries":["192.168.11.200"]
 }
 ```
 
@@ -130,9 +130,6 @@ vi /etc/docker/daemon.json
 systemctl daemon-reload
 systemctl restart docker
 systemctl status docker
-#到harbor安装目录下
-docker-compose down
-docker-compose up -d
 docker login 192.168.11.200  # 私有仓库的ip或域名，输入用户名、密码
 ```
 
