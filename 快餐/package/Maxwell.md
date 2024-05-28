@@ -2,8 +2,7 @@
 它会实时监控MySQL数据库的数据变更操作（包括insert、update、delete），并将变更数据以 JSON 格式发送给 Kafka，<font color="red" >通过监听mysql的binlog</font>
 
 #### 1、Maxwell输出数据格式
-![Snipaste_2024-05-06_12-22-40.png](..\img%2FSnipaste_2024-05-06_12-22-40.png)
-
+![](./img/Snipaste_2024-05-06_12-22-40.png)
 #### 2、Mysql 主从复制
 ##### 主从复制的应用场景如下
 （1）做数据库的热备：主数据库服务器故障后，可切换到从数据库继续工作。
