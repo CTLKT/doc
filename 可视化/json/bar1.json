@@ -1,0 +1,535 @@
+{
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "color": [
+    "#1992E0",
+    "#E95308",
+    "#A7B7B7",
+    "#E0B319",
+    "#9B19E0",
+    "#19E0D6"
+  ],
+  "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true,
+    "top": "15%"
+  },
+  "xAxis": [
+    {
+      "type": "category",
+      "onZero": false,
+      "boundaryGap": true,
+      "axisLine": {
+        "lineStyle": {
+          "color": "#889EB9"
+        }
+      },
+      "axisTick": {
+        "show": false
+      },
+      "axisLabel": {
+        "color": "#000000",
+        "lineHeight": 20
+      },
+      "data": [
+        {
+          "value": "镇江中院",
+          "code": "321100"
+        },
+        {
+          "value": "京口",
+          "code": "321102"
+        },
+        {
+          "value": "润州",
+          "code": "321103"
+        },
+        {
+          "value": "丹阳",
+          "code": "321111"
+        },
+        {
+          "value": "句容",
+          "code": "321112"
+        },
+        {
+          "value": "扬中",
+          "code": "321113"
+        },
+        {
+          "value": "丹徒",
+          "code": "321121"
+        },
+        {
+          "value": "开发区",
+          "code": "321122"
+        }
+      ]
+    }
+  ],
+  "yAxis": [
+    {
+      "splitLine": {
+        "lineStyle": {
+          "color": "#B2D5FE",
+          "type": "dotted"
+        }
+      },
+      "nameTextStyle": {
+        "color": "#000000",
+        "align": "right"
+      },
+      "axisLabel": {
+        "color": "#000000"
+      },
+      "axisLine": {
+        "show": false
+      },
+      "type": "value",
+      "name": "件"
+    }
+  ],
+  "series": [
+    {
+      "name": "收案数",
+      "type": "bar",
+      "barMaxWidth": 20,
+      "data": [
+        {
+          "name": "镇江中院",
+          "value": 1,
+          "verCode": "321100",
+          "data": [
+            {
+              "verCode": "321100",
+              "indexId": "P00010",
+              "value": "1",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 1,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "京口",
+          "value": 0,
+          "verCode": "321102",
+          "data": [
+            {
+              "verCode": "321102",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "润州",
+          "value": 0,
+          "verCode": "321103",
+          "data": [
+            {
+              "verCode": "321103",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "丹阳",
+          "value": 0,
+          "verCode": "321111",
+          "data": [
+            {
+              "verCode": "321111",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "句容",
+          "value": 0,
+          "verCode": "321112",
+          "data": [
+            {
+              "verCode": "321112",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "扬中",
+          "value": 0,
+          "verCode": "321113",
+          "data": [
+            {
+              "verCode": "321113",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "丹徒",
+          "value": 0,
+          "verCode": "321121",
+          "data": [
+            {
+              "verCode": "321121",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "开发区",
+          "value": 0,
+          "verCode": "321122",
+          "data": [
+            {
+              "verCode": "321122",
+              "indexId": "P00010",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 1,
+          "indexObj": {
+            "indexId": "P00010",
+            "name": "收案数",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "202201",
+            "endDate": "202212",
+            "indexIds": [
+              {
+                "indexId": "P00010",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        }
+      ],
+      "zlevel": 1,
+      "itemStyle": {
+        "normal": {
+          "color": {
+            "colorStops": [
+              {
+                "offset": 0,
+                "color": "rgb(31,120,215)"
+              },
+              {
+                "offset": 1,
+                "color": "rgba(31,120,215, 0.3)"
+              }
+            ],
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "type": "linear",
+            "global": false
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "tooltip": {
+    "trigger": "item"
+  },
+  "color": [
+    "#4BADF6",
+    "#4ADECA",
+    "#279CE0",
+    "#0368DF",
+    "#38CAFB"
+  ],
+  "legend": {
+    "orient": "vertical",
+    "selectedMode": false,
+    "y": "center",
+    "x": "50%",
+    "icon": "circle",
+    "itemWidth": 7,
+    "itemHeight": 7,
+    "textStyle": {
+      "color": "#FFFFFF"
+    },
+    "data": [
+      {
+        "name": "行政处罚",
+        "code": "15_060001-1"
+      },
+      {
+        "name": "行政撤销",
+        "code": "15_060001-10"
+      },
+      {
+        "name": "行政补偿",
+        "code": "15_060001-14"
+      },
+      {
+        "name": "行政执行",
+        "code": "15_060001-15"
+      },
+      {
+        "name": "行政给付",
+        "code": "15_060001-17"
+      },
+      {
+        "name": "行政强制",
+        "code": "15_060001-2"
+      },
+      {
+        "name": "行政征收",
+        "code": "15_060001-20"
+      },
+      {
+        "name": "行政规划",
+        "code": "15_060001-22"
+      },
+      {
+        "name": "其他行政行为",
+        "code": "15_060001-255"
+      },
+      {
+        "name": "行政监督",
+        "code": "15_060001-26"
+      },
+      {
+        "name": "行政确认",
+        "code": "15_060001-4"
+      },
+      {
+        "name": "行政登记",
+        "code": "15_060001-5"
+      },
+      {
+        "name": "行政许可",
+        "code": "15_060001-6"
+      },
+      {
+        "name": "行政命令",
+        "code": "15_060001-8"
+      },
+      {
+        "name": "行政复议",
+        "code": "15_060001-9"
+      }
+    ],
+    "show": false
+  },
+  "series": [
+    {
+      "radius": [
+        "15%",
+        "50%"
+      ],
+      "center": [
+        "40%",
+        "50%"
+      ],
+      "minShowLabelAngle": 3,
+      "minAngle": 5,
+      "type": "pie",
+      "label": {
+        "show": true,
+        "position": "outside",
+        "fontSize": 13,
+        "color": "inherit",
+        "rich": {
+          "mc": {
+            "color": "#BAC3C4",
+            "padding": [
+              0,
+              0,
+              0,
+              5
+            ]
+          },
+          "pre": {
+            "align": "left",
+            "fontWeight": "bold",
+            "padding": [
+              0,
+              0,
+              0,
+              10
+            ]
+          }
+        },
+        "labelLine": {
+          "normal": {
+            "length": 15,
+            "length2": 5
+          }
+        }
+      },
+      "emphasis": {
+        "disabled": false,
+        "label": {
+          "show": true
+        }
+      },
+      "data": [
+        {
+          "name": "其他行政行为",
+          "value": 61,
+          "verCode": "15_060001-255",
+          "data": [
+            {
+              "verCode": "15_060001-255",
+              "indexId": "P00106",
+              "value": "61",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 61,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        },
+        {
+          "name": "行政确认",
+          "value": 15,
+          "verCode": "15_060001-4",
+          "data": [
+            {
+              "verCode": "15_060001-4",
+              "indexId": "P00106",
+              "value": "15",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 15,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        },
+        {
+          "name": "行政复议",
+          "value": 8,
+          "verCode": "15_060001-9",
+          "data": [
+            {
+              "verCode": "15_060001-9",
+              "indexId": "P00106",
+              "value": "8",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 8,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        },
+        {
+          "name": "行政处罚",
+          "value": 4,
+          "verCode": "15_060001-1",
+          "data": [
+            {
+              "verCode": "15_060001-1",
+              "indexId": "P00106",
+              "value": "4",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 4,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        },
+        {
+          "name": "行政登记",
+          "value": 3,
+          "verCode": "15_060001-5",
+          "data": [
+            {
+              "verCode": "15_060001-5",
+              "indexId": "P00106",
+              "value": "3",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 3,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        },
+        {
+          "name": "行政撤销",
+          "value": 2,
+          "verCode": "15_060001-10",
+          "data": [
+            {
+              "verCode": "15_060001-10",
+              "indexId": "P00106",
+              "value": "2",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 2,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        },
+        {
+          "name": "其他",
+          "value": 12,
+          "verCode": "15_060001-14,15_060001-17,15_060001-2,15_060001-15,15_060001-20,15_060001-22,15_060001-26,15_060001-6,15_060001-8",
+          "data": [
+            {
+              "verCode": "15_060001-14,15_060001-17,15_060001-2,15_060001-15,15_060001-20,15_060001-22,15_060001-26,15_060001-6,15_060001-8",
+              "indexId": "P00106",
+              "value": "61",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 61,
+              "unit": "件"
+            }
+          ],
+          "total": 105,
+          "indexObj": {
+            "indexId": "P00106",
+            "name": "一审败诉行政分布",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "15%",
+                  "50%"
+                ],
+                "center": [
+                  "40%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00106",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              },
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_JD",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "XZXWZL",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          },
+          "labelLine": {
+            "show": true
+          },
+          "label": {
+            "show": true
+          }
+        }
+      ],
+      "name": "一审败诉行政分布",
+      "roseType": "radius"
+    }
+  ]
+}

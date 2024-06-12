@@ -1,0 +1,1639 @@
+{
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "legend": {
+    "show": true,
+    "top": "2%",
+    "icon": "rect",
+    "itemHeight": 4,
+    "itemWidth": 8,
+    "textStyle": {
+      "fontSize": 14
+    },
+    "data": [
+      {
+        "name": "收案",
+        "icon": "rect"
+      },
+      {
+        "name": "结案",
+        "icon": "rect"
+      }
+    ],
+    "right": "5%"
+  },
+  "color": [
+    "#1992E0",
+    "#E95308",
+    "#A7B7B7",
+    "#E0B319",
+    "#9B19E0",
+    "#19E0D6"
+  ],
+  "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true,
+    "top": "15%"
+  },
+  "xAxis": [
+    {
+      "type": "category",
+      "onZero": false,
+      "boundaryGap": true,
+      "axisLine": {
+        "lineStyle": {
+          "color": "#889EB9"
+        },
+        "show": false
+      },
+      "axisTick": {
+        "show": false
+      },
+      "axisLabel": {
+        "color": "#000",
+        "lineHeight": 20
+      },
+      "data": [
+        {
+          "value": "201601",
+          "code": "201601"
+        },
+        {
+          "value": "201602",
+          "code": "201602"
+        },
+        {
+          "value": "201603",
+          "code": "201603"
+        },
+        {
+          "value": "201604",
+          "code": "201604"
+        },
+        {
+          "value": "201605",
+          "code": "201605"
+        },
+        {
+          "value": "201606",
+          "code": "201606"
+        },
+        {
+          "value": "201607",
+          "code": "201607"
+        },
+        {
+          "value": "201608",
+          "code": "201608"
+        },
+        {
+          "value": "201609",
+          "code": "201609"
+        },
+        {
+          "value": "201610",
+          "code": "201610"
+        },
+        {
+          "value": "201611",
+          "code": "201611"
+        },
+        {
+          "value": "201612",
+          "code": "201612"
+        }
+      ]
+    }
+  ],
+  "yAxis": [
+    {
+      "splitLine": {
+        "lineStyle": {
+          "color": "#B2D5FE",
+          "type": "dotted"
+        }
+      },
+      "nameTextStyle": {
+        "color": "#000",
+        "align": "right"
+      },
+      "axisLabel": {
+        "color": "#000"
+      },
+      "axisLine": {
+        "show": false
+      },
+      "type": "value",
+      "name": "件"
+    }
+  ],
+  "series": [
+    {
+      "name": "收案",
+      "type": "line",
+      "barMaxWidth": 40,
+      "data": [
+        {
+          "name": "201601",
+          "value": 13,
+          "verCode": "201601",
+          "data": [
+            {
+              "verCode": "201601",
+              "indexId": "P00091",
+              "value": "13",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 13,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201602",
+          "value": 2,
+          "verCode": "201602",
+          "data": [
+            {
+              "verCode": "201602",
+              "indexId": "P00091",
+              "value": "2",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 2,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201603",
+          "value": 7,
+          "verCode": "201603",
+          "data": [
+            {
+              "verCode": "201603",
+              "indexId": "P00091",
+              "value": "7",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 7,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201604",
+          "value": 6,
+          "verCode": "201604",
+          "data": [
+            {
+              "verCode": "201604",
+              "indexId": "P00091",
+              "value": "6",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 6,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201605",
+          "value": 8,
+          "verCode": "201605",
+          "data": [
+            {
+              "verCode": "201605",
+              "indexId": "P00091",
+              "value": "8",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 8,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201606",
+          "value": 7,
+          "verCode": "201606",
+          "data": [
+            {
+              "verCode": "201606",
+              "indexId": "P00091",
+              "value": "7",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 7,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201607",
+          "value": 16,
+          "verCode": "201607",
+          "data": [
+            {
+              "verCode": "201607",
+              "indexId": "P00091",
+              "value": "16",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 16,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201608",
+          "value": 20,
+          "verCode": "201608",
+          "data": [
+            {
+              "verCode": "201608",
+              "indexId": "P00091",
+              "value": "20",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 20,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201609",
+          "value": 33,
+          "verCode": "201609",
+          "data": [
+            {
+              "verCode": "201609",
+              "indexId": "P00091",
+              "value": "33",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 33,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201610",
+          "value": 30,
+          "verCode": "201610",
+          "data": [
+            {
+              "verCode": "201610",
+              "indexId": "P00091",
+              "value": "30",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 30,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201611",
+          "value": 43,
+          "verCode": "201611",
+          "data": [
+            {
+              "verCode": "201611",
+              "indexId": "P00091",
+              "value": "43",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 43,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201612",
+          "value": 50,
+          "verCode": "201612",
+          "data": [
+            {
+              "verCode": "201612",
+              "indexId": "P00091",
+              "value": "50",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 50,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00091",
+            "name": "收案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        }
+      ],
+      "color": "#497FFD",
+      "symbol": "none",
+      "smooth": true,
+      "areaStyle": {
+        "normal": {
+          "color": {
+            "colorStops": [
+              {
+                "offset": 0,
+                "color": "rgba(0, 135, 255, 0.4)"
+              },
+              {
+                "offset": 1,
+                "color": "rgba(0, 135, 255, 0)"
+              }
+            ],
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "type": "linear",
+            "global": false
+          }
+        }
+      }
+    },
+    {
+      "name": "结案",
+      "type": "line",
+      "barMaxWidth": 40,
+      "data": [
+        {
+          "name": "201601",
+          "value": 0,
+          "verCode": "201601",
+          "data": [
+            {
+              "verCode": "201601",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201602",
+          "value": 0,
+          "verCode": "201602",
+          "data": [
+            {
+              "verCode": "201602",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201603",
+          "value": 0,
+          "verCode": "201603",
+          "data": [
+            {
+              "verCode": "201603",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201604",
+          "value": 0,
+          "verCode": "201604",
+          "data": [
+            {
+              "verCode": "201604",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201605",
+          "value": 0,
+          "verCode": "201605",
+          "data": [
+            {
+              "verCode": "201605",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201606",
+          "value": 0,
+          "verCode": "201606",
+          "data": [
+            {
+              "verCode": "201606",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201607",
+          "value": 0,
+          "verCode": "201607",
+          "data": [
+            {
+              "verCode": "201607",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201608",
+          "value": 0,
+          "verCode": "201608",
+          "data": [
+            {
+              "verCode": "201608",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201609",
+          "value": 0,
+          "verCode": "201609",
+          "data": [
+            {
+              "verCode": "201609",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201610",
+          "value": 0,
+          "verCode": "201610",
+          "data": [
+            {
+              "verCode": "201610",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201611",
+          "value": 0,
+          "verCode": "201611",
+          "data": [
+            {
+              "verCode": "201611",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "201612",
+          "value": 0,
+          "verCode": "201612",
+          "data": [
+            {
+              "verCode": "201612",
+              "indexId": "P00098",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "SUM",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00098",
+            "name": "结案",
+            "searchType": "bq",
+            "type": "line",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201601",
+            "endDate": "201612",
+            "indexIds": [
+              {
+                "indexId": "P00091",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00098",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_MTH",
+            "verDimLevel": 0,
+            "removeEmpty": 0
+          }
+        }
+      ],
+      "smooth": true,
+      "color": "#FFA043",
+      "symbol": "none",
+      "areaStyle": {
+        "normal": {
+          "color": {
+            "colorStops": [
+              {
+                "offset": 0,
+                "color": "rgba(255,160,67, 0.4)"
+              },
+              {
+                "offset": 1,
+                "color": "rgba(255,160,67, 0)"
+              }
+            ],
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "type": "linear",
+            "global": false
+          }
+        }
+      }
+    }
+  ],
+  "dataZoom": [
+    {
+      "show": true,
+      "height": 10,
+      "xAxisIndex": [
+        0
+      ],
+      "bottom": 0,
+      "showDetail": false,
+      "borderColor": "transparent",
+      "brushSelect": false,
+      "textStyle": {
+        "fontSize": 0
+      },
+      "endValue": 10,
+      "backgroundColor": "rgba(38,159,255, 0.3)",
+      "fillerColor": "#409EFF",
+      "borderWidth": 0,
+      "handleSize": "0%",
+      "handleStyle": {
+        "color": "#d3dee5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "tooltip": {
+    "trigger": "item"
+  },
+  "color": [
+    "rgb(34, 164, 248)",
+    "rgb(27, 199, 139)",
+    "rgb(249, 123, 0)",
+    "rgb(255, 228, 0)",
+    "#C280FF",
+    "#fde300"
+  ],
+  "legend": {
+    "orient": "vertical",
+    "selectedMode": false,
+    "y": "center",
+    "x": "55%",
+    "icon": "path://M881.387 297.813c38.08 65.387 57.28 136.747 57.28 214.187s-19.094 148.8-57.28 214.187c-38.187 65.28-89.92 117.12-155.2 155.2S589.44 938.667 512 938.667s-148.8-19.094-214.187-57.28c-65.28-38.08-117.013-89.814-155.306-155.307C104.427 660.8 85.333 589.44 85.333 512c0-77.333 19.094-148.693 57.28-214.187 38.08-65.28 89.814-117.013 155.307-155.306C363.2 104.533 434.56 85.333 512 85.333c77.333 0 148.693 19.094 214.187 57.28 65.28 38.187 117.013 89.92 155.2 155.2z m-217.707-47.36C617.387 223.467 566.827 209.92 512 209.92s-105.387 13.547-151.68 40.533-82.987 63.68-109.973 109.974c-26.987 46.293-40.534 96.853-40.534 151.68s13.547 105.386 40.534 151.68c26.986 46.293 63.68 82.986 109.973 109.973 46.293 26.987 96.853 40.533 151.68 40.533s105.387-13.546 151.68-40.533c46.293-26.987 82.987-63.68 109.973-109.973 26.987-46.294 40.534-96.854 40.534-151.68s-13.547-105.387-40.534-151.68c-27.093-46.294-63.786-82.987-109.973-109.974z",
+    "itemWidth": 11,
+    "itemHeight": 11,
+    "textStyle": {
+      "color": "#FFFFFF",
+      "lineHeight": 16,
+      "rich": {
+        "name": {
+          "align": "left",
+          "width": 100,
+          "color": "#fff"
+        },
+        "scale_0": {
+          "width": 50,
+          "color": "rgb(34, 164, 248)",
+          "align": "right"
+        },
+        "scale_1": {
+          "width": 50,
+          "color": "rgb(27, 199, 139)",
+          "align": "right"
+        },
+        "scale_2": {
+          "width": 50,
+          "color": "rgb(249, 123, 0)",
+          "align": "right"
+        },
+        "scale_3": {
+          "width": 50,
+          "color": "rgb(255, 228, 0)",
+          "align": "right"
+        },
+        "scale_4": {
+          "width": 50,
+          "color": "#C280FF",
+          "align": "right"
+        },
+        "scale_5": {
+          "width": 50,
+          "color": "#fde300",
+          "align": "right"
+        }
+      }
+    },
+    "data": [
+      {
+        "name": "判决",
+        "code": "0600840000001"
+      },
+      {
+        "name": "不予立案",
+        "code": "0600840000002"
+      },
+      {
+        "name": "驳回起诉",
+        "code": "0600840000003"
+      },
+      {
+        "name": "准予撤诉",
+        "code": "0600840000004"
+      },
+      {
+        "name": "按撤诉处理",
+        "code": "0600840000005"
+      },
+      {
+        "name": "其他",
+        "code": "0600840000001",
+        "value": null
+      }
+    ],
+    "itemGap": 10,
+    "itemStyle": {
+      "borderWidth": 0
+    }
+  },
+  "series": [
+    {
+      "radius": [
+        "70%",
+        "90%"
+      ],
+      "center": [
+        "30%",
+        "50%"
+      ],
+      "minShowLabelAngle": 3,
+      "minAngle": 5,
+      "type": "pie",
+      "label": {
+        "show": false,
+        "position": "inside",
+        "formatter": "{d}%",
+        "fontSize": 13,
+        "color": "rgba(255,255,255,0.8)"
+      },
+      "emphasis": {
+        "disabled": false,
+        "label": {
+          "show": true
+        }
+      },
+      "data": [
+        {
+          "name": "判决",
+          "value": 61,
+          "verCode": "0600840000001",
+          "data": [
+            {
+              "verCode": "0600840000001",
+              "indexId": "P00022",
+              "value": "61",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 61,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00022",
+            "name": "一审结案方式",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "center": [
+                  "30%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00022",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JAFS",
+            "verDimLevel": 2,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "不予立案",
+          "value": 36,
+          "verCode": "0600840000002",
+          "data": [
+            {
+              "verCode": "0600840000002",
+              "indexId": "P00022",
+              "value": "36",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 36,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00022",
+            "name": "一审结案方式",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "center": [
+                  "30%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00022",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JAFS",
+            "verDimLevel": 2,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "驳回起诉",
+          "value": 70,
+          "verCode": "0600840000003",
+          "data": [
+            {
+              "verCode": "0600840000003",
+              "indexId": "P00022",
+              "value": "70",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 70,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00022",
+            "name": "一审结案方式",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "center": [
+                  "30%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00022",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JAFS",
+            "verDimLevel": 2,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "准予撤诉",
+          "value": 57,
+          "verCode": "0600840000004",
+          "data": [
+            {
+              "verCode": "0600840000004",
+              "indexId": "P00022",
+              "value": "57",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 57,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00022",
+            "name": "一审结案方式",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "center": [
+                  "30%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00022",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JAFS",
+            "verDimLevel": 2,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "按撤诉处理",
+          "value": 3,
+          "verCode": "0600840000005",
+          "data": [
+            {
+              "verCode": "0600840000005",
+              "indexId": "P00022",
+              "value": "3",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 3,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00022",
+            "name": "一审结案方式",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "center": [
+                  "30%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00022",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JAFS",
+            "verDimLevel": 2,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "其他",
+          "value": 8,
+          "verCode": "0600840000007,0600840000009",
+          "data": [
+            {
+              "verCode": "0600840000007,0600840000009",
+              "indexId": "P00022",
+              "value": "61",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 61,
+              "unit": "件"
+            }
+          ],
+          "total": 235,
+          "indexObj": {
+            "indexId": "P00022",
+            "name": "一审结案方式",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "center": [
+                  "30%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00022",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JAFS",
+            "verDimLevel": 2,
+            "removeEmpty": 0
+          }
+        }
+      ],
+      "name": "一审结案方式",
+      "itemStyle": {
+        "borderColor": "#00265F",
+        "borderWidth": 2
+      }
+    }
+  ],
+  "title": {
+    "text": "一审结案方式",
+    "x": "18%",
+    "y": "45%",
+    "textStyle": {
+      "color": "#F97C60",
+      "fontSize": 18
+    }
+  }
+}

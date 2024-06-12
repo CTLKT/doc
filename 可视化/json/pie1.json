@@ -1,0 +1,746 @@
+{
+  "tooltip": {
+    "trigger": "item"
+  },
+  "color": [
+    "#00D1C8",
+    "#7D5AFB",
+    "#F9DA4F",
+    "#23BE72",
+    "#00CCFF",
+    "#0096FF",
+    "#C280FF",
+    "#808000"
+  ],
+  "legend": [
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "5%",
+      "top": "10%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#00D1C8"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "乡镇街道"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "5%",
+      "top": "30%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#7D5AFB"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "人社局"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "5%",
+      "top": "50%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#F9DA4F"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "公安局"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "5%",
+      "top": "70%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#23BE72"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "自然资源和规划局"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "75%",
+      "top": "10%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#00CCFF"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "住建局"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "75%",
+      "top": "30%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#0096FF"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "综合执法局"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "75%",
+      "top": "50%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#C280FF"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "交通运输局"
+      ]
+    },
+    {
+      "show": true,
+      "icon": "circle",
+      "left": "75%",
+      "top": "70%",
+      "itemWidth": 10,
+      "itemHeight": 10,
+      "itemStyle": {
+        "color": "#808000"
+      },
+      "align": "left",
+      "x": "left",
+      "textStyle": {
+        "rich": {
+          "bb": {
+            "color": "#ffffff",
+            "fontSize": 12
+          },
+          "cc": {
+            "color": "#ffffff",
+            "fontSize": 12,
+            "align": "left"
+          }
+        }
+      },
+      "data": [
+        "其他"
+      ]
+    }
+  ],
+  "series": [
+    {
+      "radius": [
+        "50%",
+        "75%"
+      ],
+      "center": [
+        "50%",
+        "50%"
+      ],
+      "minShowLabelAngle": 3,
+      "minAngle": 5,
+      "type": "pie",
+      "label": {
+        "show": false,
+        "position": "inside",
+        "formatter": "{d}%",
+        "fontSize": 13,
+        "color": "rgba(255,255,255,0.8)"
+      },
+      "emphasis": {
+        "disabled": false,
+        "label": {
+          "show": true
+        }
+      },
+      "data": [
+        {
+          "name": "乡镇街道",
+          "value": 14,
+          "verCode": "乡镇街道",
+          "data": [
+            {
+              "verCode": "乡镇街道",
+              "indexId": "P00065",
+              "value": "14",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 14,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "人社局",
+          "value": 44,
+          "verCode": "人社局",
+          "data": [
+            {
+              "verCode": "人社局",
+              "indexId": "P00065",
+              "value": "44",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 44,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "公安局",
+          "value": 37,
+          "verCode": "公安局",
+          "data": [
+            {
+              "verCode": "公安局",
+              "indexId": "P00065",
+              "value": "37",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 37,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "自然资源和规划局",
+          "value": 16,
+          "verCode": "自然资源和规划局",
+          "data": [
+            {
+              "verCode": "自然资源和规划局",
+              "indexId": "P00065",
+              "value": "16",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 16,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "住建局",
+          "value": 12,
+          "verCode": "住建局",
+          "data": [
+            {
+              "verCode": "住建局",
+              "indexId": "P00065",
+              "value": "12",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 12,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "综合执法局",
+          "value": 7,
+          "verCode": "综合执法局",
+          "data": [
+            {
+              "verCode": "综合执法局",
+              "indexId": "P00065",
+              "value": "7",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 7,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "交通运输局",
+          "value": 2,
+          "verCode": "交通运输局",
+          "data": [
+            {
+              "verCode": "交通运输局",
+              "indexId": "P00065",
+              "value": "2",
+              "format": "###0",
+              "calcMode": "REAL",
+              "original": 2,
+              "unit": "件"
+            }
+          ],
+          "total": 347,
+          "indexObj": {
+            "indexId": "P00065",
+            "name": "案件数",
+            "searchType": "bq",
+            "type": "pie",
+            "showFc": true,
+            "option": {
+              "serie": {
+                "radius": [
+                  "50%",
+                  "75%"
+                ],
+                "center": [
+                  "50%",
+                  "50%"
+                ]
+              }
+            }
+          },
+          "dataReq": {
+            "startDate": "20180101",
+            "endDate": "20190201",
+            "indexIds": [
+              {
+                "indexId": "P00065",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "FYDM",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_JGMC",
+            "verDimLevel": 1,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "其他",
+          "value": 215
+        }
+      ],
+      "name": "案件数"
+    }
+  ],
+  "grid": {
+    "left": "0%",
+    "right": "0%",
+    "bottom": "0%",
+    "top": "0%",
+    "containLabel": true
+  },
+  "title": {
+    "text": 347,
+    "subtext": "总数(件)",
+    "x": "center",
+    "y": "45%",
+    "textStyle": {
+      "color": "#00E0DB",
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "color": "#fff",
+      "fontSize": 12
+    }
+  }
+}
