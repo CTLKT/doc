@@ -1,0 +1,1011 @@
+{
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "color": [
+    "#1992E0",
+    "#E95308",
+    "#A7B7B7",
+    "#E0B319",
+    "#9B19E0",
+    "#19E0D6"
+  ],
+  "grid": {
+    "left": "2%",
+    "right": "4%",
+    "bottom": "20%",
+    "containLabel": true,
+    "top": "2%"
+  },
+  "xAxis": [
+    {
+      "type": "value",
+      "onZero": false,
+      "boundaryGap": true,
+      "axisLine": {
+        "lineStyle": {
+          "color": "#889EB9"
+        },
+        "show": false
+      },
+      "axisTick": {
+        "show": false
+      },
+      "axisLabel": {
+        "color": "#000",
+        "lineHeight": 20,
+        "show": false
+      },
+      "splitLine": {
+        "show": false
+      }
+    }
+  ],
+  "yAxis": [
+    {
+      "splitLine": {
+        "lineStyle": {
+          "color": "#B2D5FE"
+        }
+      },
+      "nameTextStyle": {
+        "color": "#B2D5FE"
+      },
+      "axisLabel": {
+        "color": "#000"
+      },
+      "axisLine": {
+        "show": false
+      },
+      "type": "category",
+      "axisTick": {
+        "show": false
+      },
+      "data": [
+        {
+          "value": "7      丹徒",
+          "code": "321121"
+        },
+        {
+          "value": "6   开发区",
+          "code": "321122"
+        },
+        {
+          "value": "5      润州",
+          "code": "321103"
+        },
+        {
+          "value": "4      京口",
+          "code": "321102"
+        },
+        {
+          "value": "3      句容",
+          "code": "321112"
+        },
+        {
+          "value": "2      扬中",
+          "code": "321113"
+        },
+        {
+          "value": "1      丹阳",
+          "code": "321111"
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "name": "未处置财产",
+      "type": "bar",
+      "barMaxWidth": "8px",
+      "data": [
+        {
+          "name": "丹徒",
+          "value": 33,
+          "verCode": "321121",
+          "data": [
+            {
+              "verCode": "321121",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 33
+        },
+        {
+          "name": "开发区",
+          "value": 37,
+          "verCode": "321122",
+          "data": [
+            {
+              "verCode": "321122",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 37
+        },
+        {
+          "name": "润州",
+          "value": 47,
+          "verCode": "321103",
+          "data": [
+            {
+              "verCode": "321103",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 47
+        },
+        {
+          "name": "京口",
+          "value": 59,
+          "verCode": "321102",
+          "data": [
+            {
+              "verCode": "321102",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 59
+        },
+        {
+          "name": "句容",
+          "value": 69,
+          "verCode": "321112",
+          "data": [
+            {
+              "verCode": "321112",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 69
+        },
+        {
+          "name": "扬中",
+          "value": 85,
+          "verCode": "321113",
+          "data": [
+            {
+              "verCode": "321113",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 85
+        },
+        {
+          "name": "丹阳",
+          "value": 175,
+          "verCode": "321111",
+          "data": [
+            {
+              "verCode": "321111",
+              "indexId": "P00031",
+              "value": "0",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 0,
+              "unit": "件"
+            }
+          ],
+          "total": 0,
+          "indexObj": {
+            "indexId": "P00031",
+            "name": "未处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          },
+          "value1": 175
+        }
+      ],
+      "itemStyle": {
+        "normal": {
+          "color": {
+            "colorStops": [
+              {
+                "offset": 0,
+                "color": "rgb(30,119,215)"
+              },
+              {
+                "offset": 1,
+                "color": "rgb(195,235,251)"
+              }
+            ],
+            "x": 1,
+            "y": 0,
+            "x2": 0,
+            "y2": 0,
+            "type": "linear",
+            "global": false
+          }
+        }
+      },
+      "stack": "total"
+    },
+    {
+      "name": "已处置财产",
+      "type": "bar",
+      "barMaxWidth": 40,
+      "data": [
+        {
+          "name": "丹徒",
+          "value": 33,
+          "verCode": "321121",
+          "data": [
+            {
+              "verCode": "321121",
+              "indexId": "P00032",
+              "value": "33",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 33,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "开发区",
+          "value": 37,
+          "verCode": "321122",
+          "data": [
+            {
+              "verCode": "321122",
+              "indexId": "P00032",
+              "value": "37",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 37,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "润州",
+          "value": 47,
+          "verCode": "321103",
+          "data": [
+            {
+              "verCode": "321103",
+              "indexId": "P00032",
+              "value": "47",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 47,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "京口",
+          "value": 59,
+          "verCode": "321102",
+          "data": [
+            {
+              "verCode": "321102",
+              "indexId": "P00032",
+              "value": "59",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 59,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "句容",
+          "value": 69,
+          "verCode": "321112",
+          "data": [
+            {
+              "verCode": "321112",
+              "indexId": "P00032",
+              "value": "69",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 69,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "扬中",
+          "value": 85,
+          "verCode": "321113",
+          "data": [
+            {
+              "verCode": "321113",
+              "indexId": "P00032",
+              "value": "85",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 85,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        },
+        {
+          "name": "丹阳",
+          "value": 175,
+          "verCode": "321111",
+          "data": [
+            {
+              "verCode": "321111",
+              "indexId": "P00032",
+              "value": "175",
+              "format": "###0",
+              "calcMode": "LAST",
+              "original": 175,
+              "unit": "件"
+            }
+          ],
+          "total": 505,
+          "indexObj": {
+            "indexId": "P00032",
+            "name": "已处置财产",
+            "searchType": "bq",
+            "type": "bar",
+            "showFc": true
+          },
+          "dataReq": {
+            "startDate": "201901",
+            "endDate": "201912",
+            "indexIds": [
+              {
+                "indexId": "P00031",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              },
+              {
+                "indexId": "P00032",
+                "showBq": "1",
+                "showTq": "0",
+                "showTb": "0",
+                "showSq": null,
+                "showHb": null
+              }
+            ],
+            "conditions": [
+              {
+                "indexId": null,
+                "wdCol": null,
+                "name": "ID_YWCB",
+                "queryMode": "LIKE",
+                "value": "3211",
+                "value2": null
+              }
+            ],
+            "verDimCol": "ID_YWCB",
+            "verDimLevel": 3,
+            "removeEmpty": 0
+          }
+        }
+      ],
+      "itemStyle": {
+        "normal": {
+          "color": {
+            "colorStops": [
+              {
+                "offset": 0,
+                "color": "rgba(255, 191, 29,1)"
+              },
+              {
+                "offset": 1,
+                "color": "rgba(255, 191, 29,0.3)"
+              }
+            ],
+            "x": 1,
+            "y": 0,
+            "x2": 0,
+            "y2": 0,
+            "type": "linear",
+            "global": false
+          }
+        }
+      },
+      "stack": "total"
+    }
+  ],
+  "legend": {
+    "icon": "rect",
+    "bottom": "3%",
+    "textStyle": {
+      "fontSize": 14
+    },
+    "data": [
+      {
+        "icon": "rect",
+        "name": "未处置财产"
+      },
+      {
+        "icon": "rect",
+        "name": "已处置财产"
+      }
+    ],
+    "itemHeight": 4,
+    "itemWidth": 8,
+    "show": true
+  }
+}

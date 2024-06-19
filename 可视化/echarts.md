@@ -2,6 +2,8 @@
 ![](./img/可视化-1718108358940.png)
 [bar1.json](json%2Fbar1.json)
 
+![](./img/echarts-1718325834676.png)
+[bar2.json](json%2Fbar2.json)
 #### 饼图
 
 图例左边四个 右边四个
